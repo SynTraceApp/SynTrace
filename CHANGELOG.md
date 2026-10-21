@@ -11,7 +11,7 @@ Allt som ändras i SynMap skrivs upp här, nyast överst. Läs den överst i bö
 
 ## 2026-10-21
 - **Text** – Butiksvisningen i Google Play på engelska (standardspråk) och svenska ligger i `docs/play/butiksvisning.md`: namn "Explore your synesthesia" / "Utforska din synestesi", kort och lång beskrivning inom Plays gränser. Den engelska grafikbilden är `app/icons/play-grafikbild-1024x500-en.png`. Inget ändrat i appen. (Cajsa)
-- **Design** – Play-grafikbilden (1024 × 500, `app/icons/play-grafikbild-1024x500.png`) har nu den nya loggan: cirklarna, SynTrace och "Utforska din synestesi" precis under, på samma vågbakgrund som förut. Gå tillbaka med `git revert`. (Cajsa)
+- **Design** – Play-grafikbilden (1024 × 500, `app/icons/play-grafikbild-1024x500.png`) har nu den nya loggan: cirklarna, SynTrace och "Utforska din synestesi" precis under, på samma vågbakgrund som förut, men flyttad en bit nedåt och med en ny, jämn ljusturkos våg i stället för den gamla nere i mitten. Det finns en svensk och en engelsk version (`-en`). Gå tillbaka med `git revert`. (Cajsa)
 - **Design** – Ny ikon till Play och appen: tre överlappande cirklar i turkos, lila och rosa på appens mörka botten, där varje skärningsyta har den mjukt blandade färgen av de cirklar som möts och mitten är ljus och varm. Ersätter neonhjärnan från 2026-10-16 (Cajsas eget beslut). Filerna `play-store-512.png`, `icon-512.png`, `icon-192.png`, `apple-touch-icon.png` och `icon-maskable-512.png` i `app/icons/` är utbytta; den maskbara versionen har cirklarna inom säkra zonen. Rickards `icon.svg` och `icon-maskable.svg` används inte och är oförändrade. Går tillbaka med `git revert` på commiten. (Cajsa)
 
 ## 2026-10-16
