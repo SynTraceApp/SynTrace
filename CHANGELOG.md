@@ -9,6 +9,9 @@ Allt som ändras i SynMap skrivs upp här, nyast överst. Läs den överst i bö
 - Skriv för en människa, inte för en dator. Säg vad användaren märker eller vad den andra behöver veta, inte vilka rader som ändrats.
 - Nämn det som är ofärdigt eller trasigt, så att den andra inte tror att det fungerar.
 
+## 2026-10-21
+- **Design** – Ny ikon till Play och appen: tre överlappande cirklar i turkos, lila och rosa på appens mörka botten, där varje skärningsyta har den mjukt blandade färgen av de cirklar som möts och mitten är ljus och varm. Ersätter neonhjärnan från 2026-10-16 (Cajsas eget beslut). Filerna `play-store-512.png`, `icon-512.png`, `icon-192.png`, `apple-touch-icon.png` och `icon-maskable-512.png` i `app/icons/` är utbytta; den maskbara versionen har cirklarna inom säkra zonen. Rickards `icon.svg` och `icon-maskable.svg` används inte och är oförändrade. Går tillbaka med `git revert` på commiten. (Cajsa)
+
 ## 2026-10-16
 - **Design** – Appikonerna (`icon-192.png`, `icon-512.png`, `icon-maskable-512.png`, `apple-touch-icon.png` i `app/icons/`) är nu neonhjärnan från Play-ikonen i stället för Rickards vågor. Den maskbara versionen har hjärnan inom säkra zonen på mörk botten så att Android kan klippa den till cirkel. Det ersätter Rickards appikoner från 2026-10-14. Rickards `icon.svg` och `icon-maskable.svg` används inte av appen och är oförändrade men visar den gamla designen. Går tillbaka med `git revert` på commiten "Ändrar Rickards beslut: appikonerna är neonhjärnan". (Cajsa)
 - **Repo** – Ny fil `CITATION.cff` så att GitHub visar knappen "Cite this repository" (författare Cajsa Gustafsson och Rickard Lundgren, ingen licens angiven eftersom den inte är vald). README har ett nytt avsnitt "Poängsättning och gränsvärden (för forskare)" som visar hur testerna räknas och vilka gränser som är vår egen tillämpning och inte validerade. Går tillbaka genom att ta bort filen och avsnittet. (Cajsa)

@@ -3,7 +3,7 @@
 Skriv upp din uppgift här innan du börjar, så att ni inte jobbar på samma sak. Format: `- Uppgift – namn`.
 
 ## Pågår
-- Ny ikon (plommonhjärnan i turkos, lila och rosa) till Play och appikonerna i app/icons/ – Cajsa
+- Ny ikon (tre överlappande cirklar) till Play och appikonerna i app/icons/ – Cajsa
 
 ## Frågor till den andra
 - Till Cajsa från Rickard (2026-10-11): Färgfältet i färgtesterna. Rickard ser en kant som ett upp-och-nervänt U runt gult, grönt och turkos, och tycker att fältet skär i ögonen. Det har ändrats tre gånger i dag: mjukare övergångar mellan nyanserna, och den rena färgen ligger högre för ljusa nyanser och lägre för mörka (se CHANGELOG 2026-10-11). Han ser fortfarande kanten. Mättnaden ska inte sänkas. Hur upplever du fältet, ser du kanten, och har du förslag? Svara här eller i CHANGELOG. Svar från Cajsa (2026-10-11): färgfältet är ersatt av ett färghjul, se CHANGELOG och BESLUT. Fält är nu borttagen; HSV, Lab och En i taget ligger kvar tills ni jämfört.
