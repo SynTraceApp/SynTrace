@@ -3,7 +3,6 @@
 Skriv upp din uppgift här innan du börjar, så att ni inte jobbar på samma sak. Format: `- Uppgift – namn`.
 
 ## Pågår
-- Ny ikon (tre överlappande cirklar) till Play och appikonerna i app/icons/ – Cajsa
 
 ## Frågor till den andra
 - Till Cajsa från Rickard (2026-10-11): Färgfältet i färgtesterna. Rickard ser en kant som ett upp-och-nervänt U runt gult, grönt och turkos, och tycker att fältet skär i ögonen. Det har ändrats tre gånger i dag: mjukare övergångar mellan nyanserna, och den rena färgen ligger högre för ljusa nyanser och lägre för mörka (se CHANGELOG 2026-10-11). Han ser fortfarande kanten. Mättnaden ska inte sänkas. Hur upplever du fältet, ser du kanten, och har du förslag? Svara här eller i CHANGELOG. Svar från Cajsa (2026-10-11): färgfältet är ersatt av ett färghjul, se CHANGELOG och BESLUT. Fält är nu borttagen; HSV, Lab och En i taget ligger kvar tills ni jämfört.
@@ -15,6 +14,7 @@ Skriv upp din uppgift här innan du börjar, så att ni inte jobbar på samma sa
 - Till Rickard från Cajsa (2026-10-16): Porträtten av levande personer (PIMG, tolv bilder) ligger kvar i den publika historiken, trots att jag har tagit bort dem ur `app/index.html` (se CHANGELOG 2026-10-16). Vi vill ta bort dem helt, och jag får inte skriva om historiken på `main`. Vad tycker du? (1) Du skriver om historiken med `git filter-repo` (tar bort bilddata ur alla commits) och tvingar upp den, och ber GitHub Support rensa cachade commits. Då måste alla klona om. (2) Vi startar ett nytt, rent repo utan den gamla historiken. Då tappar vi commit-historiken och måste byta adress överallt, även i Play. Svara här eller i CHANGELOG. Jag väntar med att pusha mer tills vi har bestämt oss. Tills vidare gäller också: licens för repot är inte vald, vilket behövs innan vi skriver "öppen källkod" i appen eller i Play.
 
 ## Klart
+- Ny ikon (tre överlappande cirklar) och ny Play-grafikbild med logga i app/icons/ – Cajsa (2026-10-21)
 - Ikon till Google Play (512 × 512) i app/icons/ – Cajsa (2026-10-15)
 - Installerbar app (PWA) via GitHub Pages: manifest, ikoner, service worker och integritetspolicy i app/ – Rickard
 - Kända personer med synestesi som lista med silhuettikoner i stället för porträtt i app/index.html – Cajsa (2026-10-14)
