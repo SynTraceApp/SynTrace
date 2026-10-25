@@ -9,6 +9,9 @@ Allt som ändras i SynMap skrivs upp här, nyast överst. Läs den överst i bö
 - Skriv för en människa, inte för en dator. Säg vad användaren märker eller vad den andra behöver veta, inte vilka rader som ändrats.
 - Nämn det som är ofärdigt eller trasigt, så att den andra inte tror att det fungerar.
 
+## 2026-10-25
+- **Design** – Fem skärmbilder för Google Play på svenska och engelska (1080 × 2160) i `docs/play/skarmbilder/`: startsidan, inledande frågor, Välj test, Bokstav → färg och Så fungerar SynTrace. Tagna ur appen utan ändringar i koden. Min profil är inte med eftersom den är tom utan svar. Gå tillbaka med `git revert`. (Cajsa)
+
 ## 2026-10-21
 - **Text** – Butiksvisningen i Google Play på engelska (standardspråk) och svenska ligger i `docs/play/butiksvisning.md`: namn "Explore your synesthesia" / "Utforska din synestesi", kort och lång beskrivning inom Plays gränser. Den engelska grafikbilden är `app/icons/play-grafikbild-1024x500-en.png`. Inget ändrat i appen. (Cajsa)
 - **Design** – Play-grafikbilden (1024 × 500, `app/icons/play-grafikbild-1024x500.png`) har nu den nya loggan: cirklarna, SynTrace och "Utforska din synestesi" precis under, på samma vågbakgrund som förut, men flyttad en bit nedåt och med en ny, jämn ljusturkos våg i stället för den gamla nere i mitten. Det finns en svensk och en engelsk version (`-en`). Gå tillbaka med `git revert`. (Cajsa)

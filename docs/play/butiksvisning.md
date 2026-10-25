@@ -6,6 +6,8 @@ Standardspråk: engelska (visas för alla som inte har svenska). Svenska läggs 
 
 Bilder: ikonen `app/icons/play-store-512.png` är gemensam. Grafikbilden `app/icons/play-grafikbild-1024x500.png` är den svenska; den engelska är `app/icons/play-grafikbild-1024x500-en.png`.
 
+Skärmbilder (1080 × 2160, telefon) ligger i `docs/play/skarmbilder/sv/` och `docs/play/skarmbilder/en/`: startsidan, inledande frågor, Välj test, färgtestet Bokstav → färg och Så fungerar SynTrace. Ladda upp de svenska under svenska och de engelska under engelska. Play kräver minst två.
+
 ## English (default)
 
 **App name** (24/30): Explore your synesthesia
