@@ -10,6 +10,7 @@ Allt som ändras i SynMap skrivs upp här, nyast överst. Läs den överst i bö
 - Nämn det som är ofärdigt eller trasigt, så att den andra inte tror att det fungerar.
 
 ## 2026-10-25
+- **Design** – Appen är nu alltid i mörkt läge, även för den som har ljust läge på telefonen. Det ändrar Rickards val att appen följer telefonens inställning (både det ljusa och det mörka utseendet fanns). Inget ljust utseende visas längre, men det ligger kvar i koden. Gå tillbaka med `git revert` på commiten "Ändrar Rickards beslut: appen är alltid mörk". Testat i mobilbredd och datorbredd. (Cajsa)
 - **Design** – Fem skärmbilder för Google Play på svenska och engelska (1080 × 2160) i `docs/play/skarmbilder/`: startsidan, inledande frågor, Välj test, Bokstav → färg och Så fungerar SynTrace. Tagna ur appen utan ändringar i koden. Min profil är inte med eftersom den är tom utan svar. Gå tillbaka med `git revert`. (Cajsa)
 
 ## 2026-10-21
