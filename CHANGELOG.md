@@ -14,6 +14,7 @@ Allt som ändras i SynMap skrivs upp här, nyast överst. Läs den överst i bö
 - **Design** – Sex skärmbilder för Google Play på svenska och engelska (1800 × 3600, mörkt läge, hög upplösning) i `docs/play/skarmbilder/`: start, färgtest, Dina resultat, Min profil, hubbdiagrammet och Så fungerar SynTrace. Exempeldata liknande Cajsas resultat (Starkt stöd efter uppföljning, Spegelberöring 20/20). Inga ändringar i koden. Gå tillbaka med `git revert`. (Cajsa)
 - **Design** – Sex surfplatteskärmbilder (1800 × 3200, 9:16) på svenska och engelska i `docs/play/skarmbilder/surfplatta/`, eftersom Play kräver dem. Inga ändringar i koden. Gå tillbaka med `git revert`. (Cajsa)
 - **Text** – Butikstexter för Google Play på franska, tyska och spanska i `docs/play/butiksvisning.md` (namn, kort och lång beskrivning). Inga ändringar i koden. Gå tillbaka med `git revert`. (Cajsa)
+- **Design** – Skärmbilder (telefon och surfplatta) och grafikbilder för Google Play på franska, tyska och spanska i `docs/play/skarmbilder/` och `app/icons/`. Inga ändringar i koden. Gå tillbaka med `git revert`. (Cajsa)
 
 ## 2026-10-21
 - **Text** – Butiksvisningen i Google Play på engelska (standardspråk) och svenska ligger i `docs/play/butiksvisning.md`: namn "Explore your synesthesia" / "Utforska din synestesi", kort och lång beskrivning inom Plays gränser. Den engelska grafikbilden är `app/icons/play-grafikbild-1024x500-en.png`. Inget ändrat i appen. (Cajsa)
