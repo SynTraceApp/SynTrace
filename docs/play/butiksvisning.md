@@ -8,6 +8,8 @@ Bilder: ikonen `app/icons/play-store-512.png` är gemensam. Grafikbilden `app/ic
 
 Skärmbilder (1800 × 3600, telefon) ligger i `docs/play/skarmbilder/sv/` och `docs/play/skarmbilder/en/`: sex bilder i mörkt läge med exempeldata: startsidan, ett färgtest, Dina resultat, Min profil, hubbdiagrammet "Du" och Så fungerar SynTrace. Ladda upp de svenska under svenska och de engelska under engelska. Play tillåter 2–8.
 
+Surfplattebilder (1800 × 3200, 9:16) ligger i `docs/play/skarmbilder/surfplatta/sv/` och `en/`. Play kräver dem eftersom appen är tillgänglig för surfplattor. Samma sex bilder kan användas för både 7- och 10-tumsplattor.
+
 ## English (default)
 
 **App name** (24/30): Explore your synesthesia
