@@ -10,6 +10,7 @@ Allt som ändras i SynMap skrivs upp här, nyast överst. Läs den överst i bö
 - Nämn det som är ofärdigt eller trasigt, så att den andra inte tror att det fungerar.
 
 ## 2026-10-28
+- **Text** – Raden "Programmering Rickard Lundgren" är borttagen ur upphovsraderna i Om appen och på startsidan, på alla fem språken. Rickard står kvar under Utveckling och i © 2026-raden. Service workerns version höjd till syntrace-3. Rickard har inte bett om eller sagt något om ändringen, så Rickard: säg till om du vill ha tillbaka raden. Gå tillbaka med `git revert` på commiten "Ändrar upphovsraden: Programmering borttagen". (Cajsa)
 - **Text** – Raden "Byggd med hjälp av AI (Claude, Anthropic)" är borttagen ur upphovsraderna i Om appen på svenska, engelska, franska, tyska och spanska. Ersätter Cajsas eget beslut från 2026-10-11 (se BESLUT.md). Övriga upphovsrader är oförändrade. Service workerns version höjd till syntrace-2 så att användare får ändringen. Gå tillbaka med `git revert`. (Cajsa)
 
 ## 2026-10-25
