@@ -9,6 +9,9 @@ Allt som ändras i SynMap skrivs upp här, nyast överst. Läs den överst i bö
 - Skriv för en människa, inte för en dator. Säg vad användaren märker eller vad den andra behöver veta, inte vilka rader som ändrats.
 - Nämn det som är ofärdigt eller trasigt, så att den andra inte tror att det fungerar.
 
+## 2026-10-28
+- **Text** – Raden "Byggd med hjälp av AI (Claude, Anthropic)" är borttagen ur upphovsraderna i Om appen på svenska, engelska, franska, tyska och spanska. Ersätter Cajsas eget beslut från 2026-10-11 (se BESLUT.md). Övriga upphovsrader är oförändrade. Service workerns version höjd till syntrace-2 så att användare får ändringen. Gå tillbaka med `git revert`. (Cajsa)
+
 ## 2026-10-25
 - **Design** – Appen är nu alltid i mörkt läge, även för den som har ljust läge på telefonen. Det ändrar Rickards val att appen följer telefonens inställning (både det ljusa och det mörka utseendet fanns). Inget ljust utseende visas längre, men det ligger kvar i koden. Gå tillbaka med `git revert` på commiten "Ändrar Rickards beslut: appen är alltid mörk". Testat i mobilbredd och datorbredd. (Cajsa)
 - **Design** – Sex skärmbilder för Google Play på svenska och engelska (1800 × 3600, mörkt läge, hög upplösning) i `docs/play/skarmbilder/`: start, färgtest, Dina resultat, Min profil, hubbdiagrammet och Så fungerar SynTrace. Exempeldata liknande Cajsas resultat (Starkt stöd efter uppföljning, Spegelberöring 20/20). Inga ändringar i koden. Gå tillbaka med `git revert`. (Cajsa)

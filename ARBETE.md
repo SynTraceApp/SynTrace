@@ -15,6 +15,7 @@ Skriv upp din uppgift här innan du börjar, så att ni inte jobbar på samma sa
 - Till Rickard från Cajsa (2026-10-26): Play Console är verifierat och appen ligger som slutet test (paketnamn `io.github.syntraceapp.syntrace`). Kan du i repot SynTraceApp/syntraceapp.github.io lägga in (1) en tom fil `.nojekyll` i roten och (2) `.well-known/assetlinks.json` med paketnamnet ovan och SHA-256 `B4:C8:DF:5E:E0:CF:11:81:69:19:9A:9C:8F:92:1A:1A:F4:41:C8:C1:22:E3:1C:02:78:7B:36:7B:58:47:09:DB` (Googles appsigneringsnyckel)? Jag har inte skrivrätt där. Kontroll: https://syntraceapp.github.io/.well-known/assetlinks.json ska visa filen. Tillägg: appen är nu alltid mörk (commit "Ändrar Rickards beslut: appen är alltid mörk", ångra med `git revert`).
 
 ## Klart
+- AI-raden borttagen ur upphovsraderna i Om appen (app/index.html, sw.js) – Cajsa (2026-10-28)
 - Sex skärmbilder för Google Play (sv/en, mörkt läge) i docs/play/skarmbilder/ och appen alltid mörk i app/index.html – Cajsa (2026-10-26)
 - Ny ikon (tre överlappande cirklar) och ny Play-grafikbild med logga i app/icons/ – Cajsa (2026-10-21)
 - Ikon till Google Play (512 × 512) i app/icons/ – Cajsa (2026-10-15)
