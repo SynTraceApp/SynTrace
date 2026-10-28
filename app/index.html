@@ -2496,7 +2496,7 @@ details > div { display: flex; flex-direction: column; gap: 10px; margin-top: 10
   }
   function renderChoose() {
     // Recommended tests come first, sorted by how strongly the intro answers point to them and then by time; the rest wait under "Fler tester".
-    // A test someone has already started stays in the main list. Before any intro answer, or with only Nej, everything is shown.
+    // A test someone has already started stays in the main list, and so does Dag/månad → färg (Cajsa 2026-10-28). Before any intro answer, or with only Nej, everything is shown.
     const SRC = { sound: "sound", digits: "graph", letters: "graph", time: "timecol", space: "space", mirror: "touch", ol: "pers", lg: "taste", clan: "graph", pa: "graph" };
     const W = { "Ja, tydligt": 3, "Ibland": 2, "Vet inte": 1 };
     const ALL = [...KEYS, "mirror", "ol", "clan", "pa", "lg"];
@@ -2510,7 +2510,7 @@ details > div { display: flex; flex-direction: column; gap: 10px; margin-top: 10
     const stateOf = k => KEYS.includes(k) ? testState(k) : k === "mirror" ? mtState() : k === "clan" ? clanState() : k === "pa" ? qnState("pa") : trState(k);
     const waits = k => stateOf(k).open === false ? 1 : 0;
     const order = ALL.map((k, i) => [k, i]).sort((a, b) => waits(a[0]) - waits(b[0]) || score(b[0]) - score(a[0]) || mins(a[0]) - mins(b[0]) || a[1] - b[1]).map(([k]) => k);
-    for (const k of order) (all || recd.has(k) || started(k) ? $("rec-list") : $("more-list")).appendChild($("pick-" + k));
+    for (const k of order) (all || recd.has(k) || started(k) || k === "time" ? $("rec-list") : $("more-list")).appendChild($("pick-" + k));
     $("rec-list").prepend($("pick-intro"));
     // Självskattningen ligger alltid under "Fler tester", sist, och påverkar inga rekommendationer.
     $("pick-map").style.display = ""; $("more-list").appendChild($("pick-map"));

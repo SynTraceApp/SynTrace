@@ -1,7 +1,7 @@
 // Service worker for the installable app (PWA). It only keeps the app's own files in the phone's cache so the app opens without a connection.
 // Nothing is sent anywhere: answers stay in localStorage as before.
 // Change VERSION whenever the list below changes.
-const VERSION = "syntrace-3";
+const VERSION = "syntrace-4";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png", "./icons/apple-touch-icon.png", "./integritet.html"];
 
 self.addEventListener("install", e => {
